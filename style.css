@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+.card-img-top {
+  transition: transform 0.3s ease;
+}
+
+.card:hover .card-img-top {
+  transform: scale(1.1);
+}
+
+.hover-opacity-100 {
+  transition: opacity 0.3s ease;
+}
+
+.card:hover .hover-opacity-100 {
+  opacity: 1 !important;
+}
+
+.btnProduct {
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btnProduct:hover {
+  background-color: #0a58ca;
+  transform: scale(1.05);
+}
+
+.rounded-circle {
+  width: 35px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
